@@ -1,0 +1,162 @@
+/*banner sation*/
+.banner-seation{
+background: url(./images/banner/banner3.png);
+width: 800px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 669px ;
+text-align: right;
+}
+.banner-container{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 230px 230px 24px 845px;
+}
+.banner-pregraph{
+    padding: 0px 230px 24px 876px;
+    color: #FFFFFF;
+}
+.buttm-decoration{
+    padding: 0px 400px 19px 1000px;
+    
+}
+.buttom-seation{
+    padding: 10px;
+    border-radius: 5px;
+}
+/*infromation*/
+.about-information{
+    display: flex;
+}
+.image-seation{
+
+}
+.item-seation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.heading-infromation{
+
+   
+}
+.list-items ul li {
+    list-style:url('./images/icons/Vector.png');
+    font-size: 20px;
+    padding: 7px;
+}
+.pragraph-inforamation{
+    padding-right: 217px;
+    font-size: 15px;
+    color: #444343;
+}
+/* my plans   */
+.my-plans{
+    text-align: center;
+    padding-top: 50px;
+}
+/*skill-seation*/
+.my-skill{
+    display: flex;
+    gap: 24;
+   padding: 20px 207px;
+}
+.skill{
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+    background-color: #FFEEEE;
+    background: #FFFFFF 
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 50px 82px;
+}
+.skill:hover{
+    background-color: aqua;
+}
+/*posativ-seation*/
+.posativ-seation{
+    background: url(./images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1100px;
+    margin-left: 174px;
+    position: relative;
+    z-index: -1;
+    
+}
+.posativ-seation::after{
+    content:"" ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:url(./images/gradient1.png);
+    
+}
+.posative {
+    z-index: 9;
+    position: relative;
+}
+.posativ-container{
+    padding: 38px 433px 16px 64px;
+    font-size: 50px;
+    color: white;
+    
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.button-seation{
+
+padding: 0 100px;
+}
+/*contact*/
+.google-map{
+    padding-left: 174px;
+    padding-top: 10px;
+}
+.contact{
+    display: flex;
+    background: black;
+    color: #FFFFFF;
+    padding: 39px 200px;
+    margin-left: 173px;
+    margin-right: 227px;
+}
+.contacontact-email{
+    font-size: 14px;
+}
+.contact-p{
+    font-size: 10px;
+}
+.submit-contact{
+    background: #005FAC;
+    color: white;
+    margin-top: 12px;
+    padding: 10px 29px;
+    border-radius: 7px;
+}
+.enter-mail{
+    background: black;
+    color": w";
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.contact-seation{
+   
+}
+.sucribe-seation{
+    margin-left: 10px;
+}.image-seation{
+    padding-left:135px ;
+    padding-right: 135px;
+}
